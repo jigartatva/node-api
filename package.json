@@ -1,0 +1,34 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "A Simple Node.js API",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "start": "moleculer-runner",
+    "lint": "eslint .",
+    "lint-fix": "eslint services --fix",
+    "prettier": "prettier services/*.js *.js --write"
+  },
+  "keywords": [
+    "microservices"
+  ],
+  "author": "",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "moleculer-repl": "^0.5.3",
+    "prettier": "^1.15.2"
+  },
+  "dependencies": {
+    "moleculer": "^0.13.0",
+    "moleculer-web": "^0.8.0",
+    "nats": "^1.2.2"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  }
+}
