@@ -34,7 +34,7 @@ npm run prettier
 
     It starts all services in separated containers, a [Traefik](https://traefik.io/) reverse proxy. All nodes communicate via NATs transporter.
 
-4.  Open the https://docker-ip (localhost if you are checking in local system)
+4.  Open the http://docker-ip:3000/ (`http://localhost:3000/` if you are checking in local system)
 5.  Scale up services
 
     `docker-compose scale hello=3`
